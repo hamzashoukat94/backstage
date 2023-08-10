@@ -2,7 +2,7 @@
 site_name: 'example-docs'
 
 nav:
-  - Home: sdk-doc.md
+  - Home: index.md
 
 plugins:
   - techdocs-core
