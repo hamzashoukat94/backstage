@@ -27,18 +27,18 @@
 # Registers:
 
 # File marks:
-'0  4  7  ~/apimatic-backstage/app-config.local.yaml
-|4,48,4,7,1691582026,"~/apimatic-backstage/app-config.local.yaml"
+'0  4  7  ~/backstage/app-config.local.yaml
+|4,48,4,7,1691582026,"~/backstage/app-config.local.yaml"
 
 # Jumplist (newest first):
--'  4  7  ~/apimatic-backstage/app-config.local.yaml
-|4,39,4,7,1691582026,"~/apimatic-backstage/app-config.local.yaml"
--'  1  0  ~/apimatic-backstage/app-config.local.yaml
-|4,39,1,0,1691581864,"~/apimatic-backstage/app-config.local.yaml"
+-'  4  7  ~/backstage/app-config.local.yaml
+|4,39,4,7,1691582026,"~/backstage/app-config.local.yaml"
+-'  1  0  ~/backstage/app-config.local.yaml
+|4,39,1,0,1691581864,"~/backstage/app-config.local.yaml"
 
 # History of marks within files (newest to oldest):
 
-> ~/apimatic-backstage/app-config.local.yaml
+> ~/backstage/app-config.local.yaml
 	*	1691582022	0
 	"	4	7
 	^	4	8
