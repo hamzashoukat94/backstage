@@ -1,8 +1,8 @@
 
-site_name: 'example-docs'
+site_name: 'apimatic-docs'
 
 nav:
-  - Home: index.md
+  - Home: sdk-docs.md
   - Overview: what-is-backstage.md
 plugins:
   - techdocs-core
