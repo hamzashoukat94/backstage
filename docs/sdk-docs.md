@@ -1,6 +1,9 @@
-
-
-<DIV class="SDKs">
+---
+id: apimatic-backstage
+title: APIMatic backstage?
+# prettier-ignore
+description: Enable faster integrations of your API by providing multi-language SDKs with API reference docs, dynamic code samples, assisted authentication and more - all auto-generated to provide a comprehensive developer experience beyond any API documentation tool.
+---
 
 # SDKs
 
@@ -76,6 +79,3 @@ npm install petstore-sdk@1.0.0
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=java_eclipse_jre_lib)
 - Get the SDK Package from [Maven](https://central.sonatype.com/)
 
-
-
-</DIV>
