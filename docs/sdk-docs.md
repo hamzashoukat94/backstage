@@ -30,7 +30,7 @@ dotnet add package petstore-api --version 1.0.0
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=php_generic_lib_v2)
 - Get the SDK Package from Composer using the following command
 
-```Text bash
+```bash
 composer require petstore-sdk
 ```
 
@@ -42,7 +42,7 @@ composer require petstore-sdk
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=python_generic_lib)
 - Get the SDK Package from Pypi using the following command
 
-```c bash
+```bash
 pip install petstore-sdk==1.0.0
 ```
 
@@ -54,7 +54,7 @@ pip install petstore-sdk==1.0.0
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=ruby_generic_lib)
 - Get the SDK Package from Rubygems using the following command
 
-```
+```bash
 gem install petstore-sdk -v 1.0.0
 ```
 
@@ -66,7 +66,7 @@ gem install petstore-sdk -v 1.0.0
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=ts_generic_lib)
 - Get the SDK Package from Rubygems using the following command
 
-```Text bash
+```bash
 npm install petstore-sdk@1.0.0 
 ```
 
