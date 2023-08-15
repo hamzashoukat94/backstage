@@ -1,7 +1,6 @@
 ---
 id: apimatic-backstage
 title: APIMatic backstage?
-# prettier-ignore
 description: Enable faster integrations of your API by providing multi-language SDKs with API reference docs, dynamic code samples, assisted authentication and more - all auto-generated to provide a comprehensive developer experience beyond any API documentation tool.
 ---
 
@@ -19,7 +18,7 @@ Client libraries are available for the following programming languages:
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=cs_net_standard_lib)
 - Install the Nuget Package using the .NET CLI with the following command: 
 
-```Text bash
+```bash
 dotnet add package petstore-api --version 1.0.0
 ```
 
@@ -55,7 +54,7 @@ pip install petstore-sdk==1.0.0
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=ruby_generic_lib)
 - Get the SDK Package from Rubygems using the following command
 
-```Text bash
+```
 gem install petstore-sdk -v 1.0.0
 ```
 

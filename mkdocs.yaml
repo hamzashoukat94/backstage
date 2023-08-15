@@ -4,5 +4,6 @@ site_name: 'apimatic-docs'
 nav:
   - Home: sdk-docs.md
   - Overview: what-is-backstage.md
+  - Accessibility: accessibility-index.md
 plugins:
   - techdocs-core
