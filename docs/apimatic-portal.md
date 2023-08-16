@@ -4,7 +4,5 @@ title: APIMaticDevPortal
 # prettier-ignore
 description: An embedded apimatic portal inside backstage portal
 ---
-<script src="myScript.js">
-console.log("hello")
-</script>
+<script src="myScript.js"></script>
 
