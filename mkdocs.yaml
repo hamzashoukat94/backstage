@@ -1,9 +1,8 @@
 
-site_name: 'apimatic-docs'
+site_name: 'sdk-docs'
 
 nav:
   - Home: sdk-docs.md
-  - Overview: what-is-backstage.md
-  - Accessibility: accessibility-index.md
+  - Portal: apimatic-portal.md
 plugins:
   - techdocs-core
