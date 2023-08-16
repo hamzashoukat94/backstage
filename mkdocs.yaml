@@ -6,3 +6,5 @@ nav:
   - Portal: apimatic-portal.md
 plugins:
   - techdocs-core
+extra_javascript:
+  - myScript.js
