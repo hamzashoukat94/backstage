@@ -1,5 +1,9 @@
 const script = document.createElement('script');
 script.src = 'https://dxjs.apimatic.io/v7/static/js/portal.v7.js';
+script.onerror = function () {
+  console.error('Failed to load APIMatic portal script.');
+};
+
 script.onload = function () {
   APIMaticDevPortal.show(
     {
