@@ -6,7 +6,6 @@ description: An embedded APIMatic portal inside Backstage portal
 
 # My Page
 
-```html
 <!-- This is an HTML code block -->
 <!DOCTYPE html>
 <html>
