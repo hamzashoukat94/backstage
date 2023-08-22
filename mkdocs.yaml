@@ -4,7 +4,7 @@ site_name: 'sdk-docs'
 nav:
   - Home: sdk-docs.md
   - Portal: apimatic-portal.md
-  - Test: index.html
+  - Test: test.md
 plugins:
   - techdocs-core
 extra_javascript:
