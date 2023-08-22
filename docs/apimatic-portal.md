@@ -11,9 +11,8 @@ description: An embedded APIMatic portal inside Backstage portal
   <title>Script Example</title>
 </head>
 <body>
-
-<script>
 <div id="apimatic-widget" style="height: 100%; width: 100%;"></div>
+<script>
 const script = document.createElement('script');
 script.src = 'https://dxjs.apimatic.io/v7/static/js/portal.v7.js';
 script.onerror = function () {
