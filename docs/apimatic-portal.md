@@ -15,6 +15,20 @@ This is some content on my page.
 
 <script type="text/javascript" src="myScript.js"></script>
 
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Your Backstage Documentation</title>
+</head>
+<body>
+  <!-- Your documentation content here -->
+  
+  <!-- Include your JavaScript file -->
+  <script src="path/to/your/script.js"></script>
+</body>
+</html>
+
+
 
 
 
