@@ -9,10 +9,11 @@ description: An embedded APIMatic portal inside Backstage portal
 </div>
 
 <script type="text/javascript">
-                var script = document.createElement("script");
-                script.src="https://dxjs.apimatic.io/v7/static/js/portal.v7.js";
-                script.onload = function() {
-                    APIMaticDevPortal.show(
+  var script = document.createElement("script");
+  script.src="https://dxjs.apimatic.io/v7/static/js/portal.v7.js";
+  script.onload = function() {
+    console.log('script is loaded');
+      APIMaticDevPortal.show(
                         {
   "container": "apimatic-widget",
   "portalStyle": "default",
