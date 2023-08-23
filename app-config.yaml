@@ -18,8 +18,8 @@ backend:
     # Uncomment the following host directive to bind to specific interfaces
     # host: 127.0.0.1
   csp:
-  connect-src: ["'self'", 'http:', 'https:']
-  script-src: ["'self'", 'https://apis.google.com']
+    connect-src: ["'self'", 'http:', 'https:']
+    script-src: ["'self'", 'https://apis.google.com']
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
   cors:
