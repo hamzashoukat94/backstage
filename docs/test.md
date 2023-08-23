@@ -7,7 +7,7 @@ description: An embedded APIMatic portal inside Backstage portal
 <html>
 
 <head>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https://apis.google.com; ">
     <title>Script Example</title>
 </head>
 
