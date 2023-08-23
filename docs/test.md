@@ -8,7 +8,7 @@ description: An embedded APIMatic portal inside Backstage portal
 
 <head>
     <title>Script Example</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'wasm-unsafe-eval' 'inline-speculation-rules' https://apis.google.com">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https:">
 </head>
 
 <body>
