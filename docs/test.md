@@ -15,6 +15,7 @@ description: An embedded APIMatic portal inside Backstage portal
         var script = document.createElement("script");
         script.src = "https://dxjs.apimatic.io/v7/static/js/portal.v7.js";
         script.onload = function () {
+            console.log('loaded');
             APIMaticDevPortal.show(
                 {
                     "container": "apimatic-widget",
@@ -185,6 +186,7 @@ description: An embedded APIMatic portal inside Backstage portal
         };
         document.getElementsByTagName("head")[0].appendChild(script);
     </script>
+    
     <div id="apimatic-widget" style="height: 100%; width: 100%;">
     </div>
 
