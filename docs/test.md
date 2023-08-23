@@ -8,10 +8,12 @@ description: An embedded APIMatic portal inside Backstage portal
 
 <head>
     <title>Script Example</title>
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https:">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' https: 'unsafe-inline' https://apis.google.com">
 </head>
 
 <body>
+Hello
+    
 <script type="text/javascript" src="./myScript.js"></script>
 
 <div id="apimatic-widget" style="height: 100%; width: 100%;">
