@@ -7,8 +7,8 @@ description: An embedded APIMatic portal inside Backstage portal
 <html>
 
 <head>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self';">
     <title>Script Example</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src *; img-src * 'self' data: https:; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
 </head>
 
 <body>
