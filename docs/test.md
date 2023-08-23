@@ -192,8 +192,3 @@ description: An embedded APIMatic portal inside Backstage portal
 </body>
 
 </html>
-                    );
-                };
-                document.getElementsByTagName("head")[0].appendChild(script);
-</script>
-<button id="myButton">Click me</button>
