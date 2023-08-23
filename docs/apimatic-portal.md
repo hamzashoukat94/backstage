@@ -5,6 +5,8 @@ description: An embedded APIMatic portal inside Backstage portal
 ---
 
 # APIMatic Portal
+<div id="apimatic-widget" style="height: 100%; width: 100%;">
+</div>
 
 <script type="text/javascript">
                 var script = document.createElement("script");
@@ -178,8 +180,6 @@ description: An embedded APIMatic portal inside Backstage portal
 }
                     );
                 };
-                document.getElementsByTagName("head")[0].appendChild(script);
-                </script>
+document.getElementsByTagName("head")[0].appendChild(script);
+</script>
                 
-<div id="apimatic-widget" style="height: 100%; width: 100%;">
-</div>
