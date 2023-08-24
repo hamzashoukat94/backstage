@@ -3,7 +3,7 @@ app:
   baseUrl: http://localhost:3000
 
 organization:
-  name: My Company
+  name: APIMatic
 
 backend:
   # Used for enabling authentication, secret is shared by all backend plugins
@@ -18,7 +18,7 @@ backend:
     # Uncomment the following host directive to bind to specific interfaces
     # host: 127.0.0.1
   csp:
-    connect-src: ["'self'", 'http:', 'https:' , 'https://apis.google.com']
+    connect-src: ["'self'", 'http:', 'https:']
     script-src: ["'self'", 'wasm-unsafe-eval', 'inline-speculation-rules', 'https://apis.google.com']
     # Content-Security-Policy directives follow the Helmet format: https://helmetjs.github.io/#reference
     # Default Helmet Content-Security-Policy values can be removed by setting the key to false
