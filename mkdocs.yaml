@@ -1,7 +1,7 @@
 site_name: 'sdk-docs'
 
 nav:
-  - Home: sdk-docs.md
+  - Home: index.md
   - Portal: apimatic-portal.md
   - Test: test.md
 plugins:
