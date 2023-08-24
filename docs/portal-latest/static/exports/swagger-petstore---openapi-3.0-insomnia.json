@@ -1,0 +1,564 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_source": "apimatic.transformer",
+  "resources": [
+    {
+      "name": "Swagger Petstore - OpenAPI 3.0",
+      "_type": "workspace",
+      "_id": "wrk_c1b41d9c934e45339c81df729f78682e",
+      "description": "This is a sample Pet Store Server based on the OpenAPI 3.0 specification.  You can find out more about\nSwagger at [https://swagger.io](https://swagger.io). In the third iteration of the pet store, we've switched to the design first approach!\nYou can now help us improve the API whether it's by making changes to the definition itself or to the code.\nThat way, with time, we can improve the API in general, and expose some of the new features in OAS3.\n\n_If you're looking for the Swagger 2.0/OAS 2.0 version of Petstore, then click [here](https://editor.swagger.io/?url=https://petstore.swagger.io/v2/swagger.yaml). Alternatively, you can load via the `Edit > Load Petstore OAS 2.0` menu option!_\n\nSome useful links:\n- [The Pet Store repository](https://github.com/swagger-api/swagger-petstore)\n- [The source API definition for the Pet Store](https://github.com/swagger-api/swagger-petstore/blob/master/src/main/resources/openapi.yaml)"
+    },
+    {
+      "name": "pet",
+      "_type": "request_group",
+      "_id": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "parentId": "wrk_c1b41d9c934e45339c81df729f78682e",
+      "description": "Everything about your Pets"
+    },
+    {
+      "name": "store",
+      "_type": "request_group",
+      "_id": "fld_386862506eab4f7cb8b9cd7d836a8898",
+      "parentId": "wrk_c1b41d9c934e45339c81df729f78682e",
+      "description": "Access to Petstore orders"
+    },
+    {
+      "name": "user",
+      "_type": "request_group",
+      "_id": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "parentId": "wrk_c1b41d9c934e45339c81df729f78682e",
+      "description": "Operations about user"
+    },
+    {
+      "name": "updatePet",
+      "method": "PUT",
+      "url": "https://petstore3.swagger.io/api/v3/pet",
+      "body": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "params": [
+          {
+            "type": "text",
+            "name": "name",
+            "value": "doggie",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "photoUrls",
+            "value": "[\"photoUrls89\"]",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "id",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "category",
+            "value": "{\"id\":1,\"name\":\"Dogs\"}",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "tags",
+            "value": "[{\"id\":17,\"name\":\"name35\"}]",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "petStatus",
+            "value": "available",
+            "disabled": false
+          }
+        ]
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_299441534c0345419942584b4176c91a",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "Update an existing pet by Id"
+    },
+    {
+      "name": "addPet",
+      "method": "POST",
+      "url": "https://petstore3.swagger.io/api/v3/pet",
+      "body": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "params": [
+          {
+            "type": "text",
+            "name": "name",
+            "value": "doggie",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "photoUrls",
+            "value": "[\"photoUrls82\"]",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "id",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "category",
+            "value": "{\"id\":1,\"name\":\"Dogs\"}",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "tags",
+            "value": "[{\"id\":17,\"name\":\"name35\"}]",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "petStatus",
+            "value": "available",
+            "disabled": false
+          }
+        ]
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_6e62872fb64649c19b1b7867637b85b1",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "Add a new pet to the store"
+    },
+    {
+      "name": "findPetsByStatus",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/pet/findByStatus",
+      "parameters": [
+        {
+          "name": "status",
+          "value": "available",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_a9c8d917dcbd4302b367e38404e38c35",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "Multiple status values can be provided with comma separated strings"
+    },
+    {
+      "name": "findPetsByTags",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/pet/findByTags",
+      "parameters": [
+        {
+          "name": "tags",
+          "value": "[\"tags91\"]",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_c0964198eead426ab09832b6f8fe225a",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing."
+    },
+    {
+      "name": "getPetById",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/pet/{petId}",
+      "headers": [
+        {
+          "name": "api_key",
+          "value": "api_key97",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_f46987f2f6b04b70a5b0a024b4c0dca1",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "Returns a single pet"
+    },
+    {
+      "name": "updatePetWithForm",
+      "method": "POST",
+      "url": "https://petstore3.swagger.io/api/v3/pet/{petId}",
+      "parameters": [
+        {
+          "name": "name",
+          "value": "name69",
+          "disabled": false
+        },
+        {
+          "name": "status",
+          "value": "status28",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_b3dce44b7b0048a2b83791264d234b61",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "Updates a pet in the store with form data"
+    },
+    {
+      "name": "deletePet",
+      "method": "DELETE",
+      "url": "https://petstore3.swagger.io/api/v3/pet/{petId}",
+      "headers": [
+        {
+          "name": "api_key",
+          "value": "api_key25",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_0a3f97ce45f243d9874660b1ff7da1aa",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "delete a pet"
+    },
+    {
+      "name": "uploadFile",
+      "method": "POST",
+      "url": "https://petstore3.swagger.io/api/v3/pet/{petId}/uploadImage",
+      "body": {
+        "mimeType": "multipart/form-data",
+        "params": [
+          {
+            "type": "file",
+            "name": "body",
+            "value": "path/to/file76",
+            "disabled": false
+          }
+        ]
+      },
+      "parameters": [
+        {
+          "name": "additionalMetadata",
+          "value": "additionalMetadata77",
+          "disabled": false
+        }
+      ],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/octet-stream",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_e002912878e44011814584bba9e8ddf9",
+      "parentId": "fld_360bb079e60f4d71b32e56146c55b7f8",
+      "description": "uploads an image"
+    },
+    {
+      "name": "getInventory",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/store/inventory",
+      "headers": [
+        {
+          "name": "api_key",
+          "value": "api_key45",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_744730c78c3a480ab972ab54f7aecbbf",
+      "parentId": "fld_386862506eab4f7cb8b9cd7d836a8898",
+      "description": "Returns a map of status codes to quantities"
+    },
+    {
+      "name": "placeOrder",
+      "method": "POST",
+      "url": "https://petstore3.swagger.io/api/v3/store/order",
+      "body": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "params": [
+          {
+            "type": "text",
+            "name": "id",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "petId",
+            "value": "198772",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "quantity",
+            "value": "7",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "shipDate",
+            "value": "2023-05-31T00:00:00Z",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "orderStatus",
+            "value": "approved",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "complete",
+            "value": "true",
+            "disabled": false
+          }
+        ]
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_68085f7ebcc64e9f94164538030f9459",
+      "parentId": "fld_386862506eab4f7cb8b9cd7d836a8898",
+      "description": "Place a new order in the store"
+    },
+    {
+      "name": "getOrderById",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/store/order/{orderId}",
+      "_type": "request",
+      "_id": "req_41bbf8c8022e4ef6aad5f65b72348181",
+      "parentId": "fld_386862506eab4f7cb8b9cd7d836a8898",
+      "description": "For valid response try integer IDs with value <= 5 or > 10. Other values will generate exceptions."
+    },
+    {
+      "name": "deleteOrder",
+      "method": "DELETE",
+      "url": "https://petstore3.swagger.io/api/v3/store/order/{orderId}",
+      "_type": "request",
+      "_id": "req_2bdde2f637c54427965fc954756c6fc7",
+      "parentId": "fld_386862506eab4f7cb8b9cd7d836a8898",
+      "description": "For valid response try integer IDs with value < 1000. Anything above 1000 or nonintegers will generate API errors"
+    },
+    {
+      "name": "createUser",
+      "method": "POST",
+      "url": "https://petstore3.swagger.io/api/v3/user",
+      "body": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "params": [
+          {
+            "type": "text",
+            "name": "id",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "username",
+            "value": "theUser",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "firstName",
+            "value": "John",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "lastName",
+            "value": "James",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "email",
+            "value": "john@email.com",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "password",
+            "value": "12345",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "phone",
+            "value": "12345",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "userStatus",
+            "value": "1",
+            "disabled": false
+          }
+        ]
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_03a9f1f720a14a50baa2a48cd86061db",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "This can only be done by the logged in user."
+    },
+    {
+      "name": "createUsersWithListInput",
+      "method": "POST",
+      "url": "https://petstore3.swagger.io/api/v3/user/createWithList",
+      "body": {
+        "mimeType": "application/json",
+        "text": "[\r\n  {\r\n    \"id\": 10,\r\n    \"username\": \"theUser\",\r\n    \"firstName\": \"John\",\r\n    \"lastName\": \"James\",\r\n    \"email\": \"john@email.com\",\r\n    \"password\": \"12345\",\r\n    \"phone\": \"12345\",\r\n    \"userStatus\": 1\r\n  }\r\n]"
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_698462d6ed4b410a885da4c8f6bd2784",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "Creates list of users with given input array"
+    },
+    {
+      "name": "loginUser",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/user/login",
+      "parameters": [
+        {
+          "name": "username",
+          "value": "username11",
+          "disabled": false
+        },
+        {
+          "name": "password",
+          "value": "password55",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_d3f8d02b62834ea898468f996e9787c4",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "Logs user into the system"
+    },
+    {
+      "name": "logoutUser",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/user/logout",
+      "_type": "request",
+      "_id": "req_fe0dcf84796c4589a116c8714221d334",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "Logs out current logged in user session"
+    },
+    {
+      "name": "getUserByName",
+      "method": "GET",
+      "url": "https://petstore3.swagger.io/api/v3/user/{name}",
+      "_type": "request",
+      "_id": "req_5dbcb13cc58442d1a84058d4b555c818",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "Get user by user name"
+    },
+    {
+      "name": "updateUser",
+      "method": "PUT",
+      "url": "https://petstore3.swagger.io/api/v3/user/{name}",
+      "body": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "params": [
+          {
+            "type": "text",
+            "name": "id",
+            "value": "10",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "username",
+            "value": "theUser",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "firstName",
+            "value": "John",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "lastName",
+            "value": "James",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "email",
+            "value": "john@email.com",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "password",
+            "value": "12345",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "phone",
+            "value": "12345",
+            "disabled": false
+          },
+          {
+            "type": "text",
+            "name": "userStatus",
+            "value": "1",
+            "disabled": false
+          }
+        ]
+      },
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded",
+          "disabled": false
+        }
+      ],
+      "_type": "request",
+      "_id": "req_d1c855e1842847189bac76d479930129",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "This can only be done by the logged in user."
+    },
+    {
+      "name": "deleteUser",
+      "method": "DELETE",
+      "url": "https://petstore3.swagger.io/api/v3/user/{name}",
+      "_type": "request",
+      "_id": "req_5e8bd268b23c4feba228f1c04c48bc3e",
+      "parentId": "fld_bf9c38b8a1324bbfa9cc8bd5909b6c00",
+      "description": "This can only be done by the logged in user."
+    }
+  ]
+}
