@@ -6,7 +6,8 @@ metadata:
   # Example for optional annotations
   annotations:
      github.com/project-slug: 'https://www.apimatic.io/apidocs/backstage-apimatic/v/1_0#/http/step-by-step-tutorial'
-     backstage.io/techdocs-ref: dir:.
+  name: my-entity
+  namespace: default
 spec:
   type: website
   owner: john@example.com
