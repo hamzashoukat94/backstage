@@ -57,7 +57,7 @@ gem install petstore-sdk -v 1.0.0
 
 - View the [SDK Documentation](https://www.apimatic.io/apidocs/{ YOUR DOCS SLUG }/v/1_0_11#/typescript/step-by-step-tutorial) 
 - Download the [SDK Source Code](https://www.apimatic.io/api/api-entities/{ YOUR API KEY }/portal-artifacts/sdks/generated-file?template=ts_generic_lib)
-- Get the SDK Package from Rubygems using the following command:
+- Get the SDK Package from npmjs using the following command:
 
 
 ```bash

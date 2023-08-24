@@ -12,7 +12,7 @@ description: An embedded APIMatic portal inside Backstage portal
 
 <body>
 Hello
- <script type="text/javascript">
+<script type="text/javascript">
         var script = document.createElement("script");
         script.src = "https://dxjs.apimatic.io/v7/static/js/portal.v7.js";
         script.onload = function () {
@@ -185,9 +185,11 @@ Hello
             );
         };
         document.getElementsByTagName("head")[0].appendChild(script);
-    </script>
-    <div id="apimatic-widget" style="height: 100%; width: 100%;">
-    </div>
+</script>
+
+<div id="apimatic-widget" style="height: 100vh; width: 100%;">
+</div>
+
 </body>
 
 </html>
