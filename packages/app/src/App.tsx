@@ -37,6 +37,7 @@ import { CatalogGraphPage } from '@backstage/plugin-catalog-graph';
 import { RequirePermission } from '@backstage/plugin-permission-react';
 import { catalogEntityCreatePermission } from '@backstage/plugin-catalog-common/alpha';
 import { ApiDocPage } from '@internal/plugin-api-doc';
+import ApimaticWidget from './components/home/ApimaticWidget';
 
 const app = createApp({
   apis,
@@ -64,6 +65,7 @@ const routes = (
      <Route path="/" element={<HomepageCompositionRoot />}>
       <HomePage />
     </Route>
+    <Route path="/apimatic-widget" element={<ApimaticWidget/>} />
     <Route path="/catalog" element={<CatalogIndexPage />} />
     <Route
       path="/catalog/:namespace/:kind/:name"
