@@ -28,17 +28,20 @@ const useStyles = makeStyles((theme) => ({
 
 const informationData = [
   {
+    title: 'SDKs',
+    content:
+      'Enable faster integrations of your API by providing multi-language SDKs with API reference docs, dynamic code samples, assisted authentication and more - all auto-generated to provide a comprehensive developer experience beyond any API documentation tool.',
+    link: '/apimatic-widget',
+  },
+  {
     title: 'Card 1 Title',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed ullamcorper libero. Fusce bibendum euismod ex, sit amet interdum ipsum tristique non. Aliquam erat volutpat. Sed at hendrerit velit. Aliquam erat volutpat. Sed at hendrerit velit',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed ullamcorper libero. Fusce bibendum euismod ex, sit amet interdum ipsum tristique non. Aliquam erat volutpat. Sed at hendrerit velit. Aliquam erat volutpat. Sed at hendrerit velit dolor sit.Sed at hendrerit velit dolor sit.',
   },
   {
     title: 'Card 2 Title',
-    content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed ullamcorper libero. Fusce bibendum euismod ex, sit amet interdum ipsum tristique non. Aliquam erat volutpat. Sed at hendrerit velit. Aliquam erat volutpat. Sed at hendrerit velit',
-  },
-  {
-    title: 'SDKs',
-    content: 'Enable faster integrations of your API by providing multi-language SDKs with API reference docs, dynamic code samples, assisted authentication and more - all auto-generated to provide a comprehensive developer experience beyond any API documentation tool.',
-    link: '/apimatic-widget',
+    content:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed ullamcorper libero. Fusce bibendum euismod ex, sit amet interdum ipsum tristique non. Aliquam erat volutpat. Sed at hendrerit velit. Aliquam erat volutpat. Sed at hendrerit velit dolor sit.Sed at hendrerit velit dolor sit.',
   },
 ];
 

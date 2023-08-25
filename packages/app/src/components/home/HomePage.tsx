@@ -21,7 +21,7 @@ export const HomePage = () => {
 
   return (
     <div>
-      <h1 className={classes.heading}>Welcome to APIMatic Backstage App</h1>
+      <h1 className={classes.heading}>API Catalog</h1>
       <InformationCard />
     </div>
   );
