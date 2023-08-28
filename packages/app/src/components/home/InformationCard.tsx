@@ -28,20 +28,20 @@ const useStyles = makeStyles((theme) => ({
 
 const informationData = [
   {
-    title: 'SDKs',
+    title: 'Petstore SDKs',
     content:
-      'Enable faster integrations of your API by providing multi-language SDKs with API reference docs, dynamic code samples, assisted authentication and more - all auto-generated to provide a comprehensive developer experience beyond any API documentation tool.',
+      'APIMatic\'s Petstore SDKs offer seamless integration for developers, streamlining the process of incorporating pet store functionalities into applications with ease and efficiency. With comprehensive API documentation and code generation, APIMatic empowers developers to effortlessly create robust and reliable pet store experiences.',
     link: '/apimatic-widget',
   },
   {
-    title: 'Card 1 Title',
+    title: 'Stripe SDKs',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed ullamcorper libero. Fusce bibendum euismod ex, sit amet interdum ipsum tristique non. Aliquam erat volutpat. Sed at hendrerit velit. Aliquam erat volutpat. Sed at hendrerit velit dolor sit.Sed at hendrerit velit dolor sit.',
+      'Stripe SDKs by APIMatic provide a simplified pathway for developers to seamlessly integrate secure payment processing into their applications. With code generation for multiple languages, these SDKs enable smooth interaction with the Stripe API, ensuring reliable and efficient transaction management.',
   },
   {
-    title: 'Card 2 Title',
+    title: 'MessageMedia SDKs',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed ullamcorper libero. Fusce bibendum euismod ex, sit amet interdum ipsum tristique non. Aliquam erat volutpat. Sed at hendrerit velit. Aliquam erat volutpat. Sed at hendrerit velit dolor sit.Sed at hendrerit velit dolor sit.',
+      'MessageMedia SDKs by APIMatic empower developers to effortlessly integrate powerful messaging capabilities into their applications. Offering support for various programming languages, these SDKs streamline communication processes and enhance user engagement through the MessageMedia API.',
   },
 ];
 
