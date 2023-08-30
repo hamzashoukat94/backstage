@@ -61,7 +61,7 @@ gem install petstore-sdk -v 1.0.0
 
 
 ```bash
-gem install sdksio-swagger-petstore-3-sdk -v 1.0.0 
+npm install sdksio-swagger-petstore-3-sdk@1.0.0
 ```
 
 
