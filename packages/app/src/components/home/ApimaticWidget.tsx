@@ -1,11 +1,20 @@
 import React, { Component } from 'react';
 
 class ApimaticWidget extends Component {
+  private scriptElement: HTMLScriptElement | null = null;
+
   componentDidMount() {
     const script = document.createElement('script');
     script.src = 'https://dxjs.apimatic.io/v7/static/js/portal.v7.js';
     script.onload = this.initializeWidget;
     document.getElementsByTagName('head')[0].appendChild(script);
+  }
+
+  componentWillUnmount() {
+    // Clean up the script element when the component is unmounted
+    if (this.scriptElement) {
+      document.getElementsByTagName('head')[0].removeChild(this.scriptElement);
+    }
   }
 
   initializeWidget = () => {
